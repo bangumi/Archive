@@ -7,7 +7,7 @@
 会导出的数据包括：
 
 条目：
-- 条目id 
+- 条目 ID 
 - 条目名
 - 条目中文名
 - 原始wiki字符串
@@ -16,7 +16,7 @@
 - nsfw
 
 人物：
-- 人物id
+- 人物 ID
 - 人物名
 - 人物原始wiki字符串
 - 人物简介
@@ -34,7 +34,7 @@
 - 播放时长
 - 碟片数
 
-每周GMT+8 周三凌晨五点更新。
+每周 GMT+8 周三凌晨五点更新。
 
 导出的数据可以在 [releases](https://github.com/bangumi/Archive/releases/tag/archive) 下载
 
