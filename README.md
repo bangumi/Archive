@@ -26,7 +26,15 @@
 
 条目之间的关联，条目，人物，角色两两之间的关联。
 
+章节:
+- 章节 ID
+- 章节名称，章节中文名
+- 章节介绍
+- 播出时间
+- 播放时长
+- 碟片数
+
 每周GMT+8 周三凌晨五点更新。
 
-导出的数据可以在 [这里](https://github.com/bangumi/Archive/releases/tag/archive) 下载
+导出的数据可以在 [releases](https://github.com/bangumi/Archive/releases/tag/archive) 下载
 
