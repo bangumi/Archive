@@ -34,7 +34,7 @@
 - 播放时长
 - 碟片数
 
-每周 GMT+8 周三凌晨五点更新。
+每周三凌晨五点(GMT+8)更新。
 
 导出的数据可以在 [releases](https://github.com/bangumi/Archive/releases/tag/archive) 下载
 
