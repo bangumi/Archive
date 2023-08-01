@@ -45,6 +45,8 @@
 
 ## 获取最新的导出文件地址
 
+使用 python [requests](https://pypi.org/project/requests/)
+
 ```python
 def get_newest_archive():
     url = "https://api.github.com/repos/bangumi/Archive/releases/tags/archive"
