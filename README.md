@@ -43,3 +43,18 @@
 
 导出的数据可以在 [releases](https://github.com/bangumi/Archive/releases/tag/archive) 下载
 
+## 获取最新的导出文件地址
+
+```python
+def get_newest_archive():
+    url = "https://api.github.com/repos/bangumi/Archive/releases/tags/archive"
+    response = requests.get(url)
+    release = response.json()
+
+    newest_asset = max(release["assets"], key=lambda asset: asset["created_at"])
+
+    asset_name = newest_asset["name"]
+    asset_download_url = newest_asset["browser_download_url"]
+    return asset_download_url
+```
+
