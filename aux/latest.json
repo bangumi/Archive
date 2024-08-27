@@ -1,1 +1,34 @@
-{"url":"https://api.github.com/repos/bangumi/Archive/releases/assets/188722770","id":188722770,"node_id":"RA_kwDOGogJqs4LP65S","name":"dump-2024-08-27.230228Z.zip","label":"","uploader":{"login":"trim21","id":13553903,"node_id":"MDQ6VXNlcjEzNTUzOTAz","avatar_url":"https://avatars.githubusercontent.com/u/13553903?v=4","gravatar_id":"","url":"https://api.github.com/users/trim21","html_url":"https://github.com/trim21","followers_url":"https://api.github.com/users/trim21/followers","following_url":"https://api.github.com/users/trim21/following{/other_user}","gists_url":"https://api.github.com/users/trim21/gists{/gist_id}","starred_url":"https://api.github.com/users/trim21/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/trim21/subscriptions","organizations_url":"https://api.github.com/users/trim21/orgs","repos_url":"https://api.github.com/users/trim21/repos","events_url":"https://api.github.com/users/trim21/events{/privacy}","received_events_url":"https://api.github.com/users/trim21/received_events","type":"User","site_admin":false},"content_type":"application/zip","state":"uploaded","size":302560157,"download_count":0,"created_at":"2024-08-27T23:02:29Z","updated_at":"2024-08-27T23:02:54Z","browser_download_url":"https://github.com/bangumi/Archive/releases/download/archive/dump-2024-08-27.230228Z.zip"}
+{
+  "browser_download_url": "https://github.com/bangumi/Archive/releases/download/archive/dump-2024-08-27.230612Z.zip",
+  "content_type": "application/zip",
+  "created_at": "2024-08-27T23:06:13Z",
+  "download_count": 0,
+  "id": 188723328,
+  "label": "",
+  "name": "dump-2024-08-27.230612Z.zip",
+  "node_id": "RA_kwDOGogJqs4LP7CA",
+  "size": 302560173,
+  "state": "uploaded",
+  "updated_at": "2024-08-27T23:06:23Z",
+  "uploader": {
+    "avatar_url": "https://avatars.githubusercontent.com/u/13553903?v=4",
+    "events_url": "https://api.github.com/users/trim21/events{/privacy}",
+    "followers_url": "https://api.github.com/users/trim21/followers",
+    "following_url": "https://api.github.com/users/trim21/following{/other_user}",
+    "gists_url": "https://api.github.com/users/trim21/gists{/gist_id}",
+    "gravatar_id": "",
+    "html_url": "https://github.com/trim21",
+    "id": 13553903,
+    "login": "trim21",
+    "node_id": "MDQ6VXNlcjEzNTUzOTAz",
+    "organizations_url": "https://api.github.com/users/trim21/orgs",
+    "received_events_url": "https://api.github.com/users/trim21/received_events",
+    "repos_url": "https://api.github.com/users/trim21/repos",
+    "site_admin": false,
+    "starred_url": "https://api.github.com/users/trim21/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/trim21/subscriptions",
+    "type": "User",
+    "url": "https://api.github.com/users/trim21"
+  },
+  "url": "https://api.github.com/repos/bangumi/Archive/releases/assets/188723328"
+}
