@@ -48,7 +48,7 @@
 使用 python [requests](https://pypi.org/project/requests/)
 
 ```python
-def get_newest_archive() -> str:
+def get_newest_archive_download_url() -> str:
     url = "https://raw.githubusercontent.com/bangumi/Archive/master/aux/latest.json"
     response = requests.get(url)
     release = response.json()
