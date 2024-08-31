@@ -49,14 +49,10 @@
 
 ```python
 def get_newest_archive():
-    url = "https://api.github.com/repos/bangumi/Archive/releases/tags/archive"
+    url = "https://raw.githubusercontent.com/bangumi/Archive/master/aux/latest.json"
     response = requests.get(url)
     release = response.json()
 
-    newest_asset = max(release["assets"], key=lambda asset: asset["created_at"])
-
-    asset_name = newest_asset["name"]
-    asset_download_url = newest_asset["browser_download_url"]
-    return asset_download_url
+    return newest_asset["browser_download_url"]
 ```
 
