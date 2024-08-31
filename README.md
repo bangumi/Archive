@@ -48,11 +48,11 @@
 使用 python [requests](https://pypi.org/project/requests/)
 
 ```python
-def get_newest_archive():
+def get_newest_archive() -> str:
     url = "https://raw.githubusercontent.com/bangumi/Archive/master/aux/latest.json"
     response = requests.get(url)
     release = response.json()
 
-    return newest_asset["browser_download_url"]
+    return release["browser_download_url"]
 ```
 
