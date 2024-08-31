@@ -45,5 +45,6 @@
 
 ## 获取最新的导出文件地址
 
-请获取并解析 [./aux/latest.json](./aux/latest.json) 文件
+请获取并解析 [./aux/latest.json](./aux/latest.json) 文件，该文件会在新数据上传之后更新。
+
 
