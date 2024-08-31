@@ -45,14 +45,4 @@
 
 ## 获取最新的导出文件地址
 
-使用 python [requests](https://pypi.org/project/requests/)
-
-```python
-def get_newest_archive_download_url() -> str:
-    url = "https://raw.githubusercontent.com/bangumi/Archive/master/aux/latest.json"
-    response = requests.get(url)
-    release = response.json()
-
-    return release["browser_download_url"]
-```
-
+请获取并解析 <./aux/latest.json> 文件
