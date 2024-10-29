@@ -1,12 +1,12 @@
 {
-  "browser_download_url": "https://github.com/bangumi/Archive/releases/download/archive/dump-2024-10-22.210235Z.zip",
+  "browser_download_url": "https://github.com/bangumi/Archive/releases/download/archive/dump-2024-10-29.210231Z.zip",
   "content_type": "application/zip",
-  "created_at": "2024-10-22T21:02:35Z",
-  "id": 201004204,
+  "created_at": "2024-10-29T21:02:31Z",
+  "id": 202675924,
   "label": "",
-  "name": "dump-2024-10-22.210235Z.zip",
-  "node_id": "RA_kwDOGogJqs4L-xSs",
-  "size": 310661783,
-  "updated_at": "2024-10-22T21:02:46Z",
-  "url": "https://api.github.com/repos/bangumi/Archive/releases/assets/201004204"
+  "name": "dump-2024-10-29.210231Z.zip",
+  "node_id": "RA_kwDOGogJqs4MFJbU",
+  "size": 311289591,
+  "updated_at": "2024-10-29T21:02:41Z",
+  "url": "https://api.github.com/repos/bangumi/Archive/releases/assets/202675924"
 }
