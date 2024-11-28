@@ -45,6 +45,12 @@
 
 导出的数据可以在 [releases](https://github.com/bangumi/Archive/releases/tag/archive) 下载
 
+导出数据的键值对含义，参考 [bangumi/dev-docs](https://github.com/bangumi/dev-docs) 。
+
+职位、条目关系等定义见 [bangumi/server](https://github.com/bangumi/server) 中 `/pkg/vars` 下的文件。
+
+**wiki** 原始字符串的解析，可参照 [bangumi/wiki-parser](https://github.com/bangumi/wiki-parser) 与 [bangumi/wiki-syntax-spec](https://github.com/bangumi/wiki-syntax-spec) 。
+
 ## 获取最新的导出文件地址
 
 请获取并解析 [./aux/latest.json](./aux/latest.json) 文件，该文件会在新数据上传之后更新。
