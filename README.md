@@ -106,9 +106,9 @@
 
 导出的数据可以在 [releases](https://github.com/bangumi/Archive/releases/tag/archive) 下载
 
-职位、关联关系、条目平台等具体对应关系见 [bangumi/server](https://github.com/bangumi/server) 中 `/pkg/vars` 下的相关文件。
+relation, platform, staff 等常量对应关系的 yaml 文件见 [`bangumi/common`](https://github.com/bangumi/common)。
 
-**wiki** 原始字符串的语法与解析方式，可参照 [bangumi/wiki-parser](https://github.com/bangumi/wiki-parser) [wiki-parser-py](https://github.com/bangumi/wiki-parser-py) 与 [bangumi/wiki-syntax-spec](https://github.com/bangumi/wiki-syntax-spec) 。
+**wiki** 原始字符串的语法与解析方式，可参照 [`bangumi/wiki-parser`](https://github.com/bangumi/wiki-parser) [`wiki-parser-py`](https://github.com/bangumi/wiki-parser-py) 与 [`bangumi/wiki-syntax-spec`](https://github.com/bangumi/wiki-syntax-spec) 。
 
 ## 获取最新的导出文件地址
 
