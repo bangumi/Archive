@@ -117,7 +117,7 @@
 
 relation, platform, staff 等常量对应关系的 yaml 文件见 [`bangumi/common`](https://github.com/bangumi/common)。
 
-**wiki** 原始字符串的语法与解析方式，可参照 [`bangumi/wiki-parser`](https://github.com/bangumi/wiki-parser) [`wiki-parser-py`](https://github.com/bangumi/wiki-parser-py) 与 [`bangumi/wiki-syntax-spec`](https://github.com/bangumi/wiki-syntax-spec) 。
+**wiki** 原始字符串的语法与解析方式，可参照 [`bangumi/wiki-parser-go`](https://github.com/bangumi/wiki-parser-go) [`bangumi/wiki-parser`](https://github.com/bangumi/wiki-parser) [`wiki-parser-py`](https://github.com/bangumi/wiki-parser-py) 与 [`bangumi/wiki-syntax-spec`](https://github.com/bangumi/wiki-syntax-spec) 。
 
 ## 获取最新的导出文件地址
 
