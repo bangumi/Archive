@@ -2,6 +2,12 @@ name: Convert Release ZIP to 7z
 on:
   release:
     types: [published, edited] #上传任意文件，或者编辑任意release信息都会触发edited
+
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   convert:
     runs-on: ubuntu-latest
