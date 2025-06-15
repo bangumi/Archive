@@ -29,6 +29,7 @@ jobs:
             ($zips - $seven_zips) | map(. + ".zip") | join(" ")
           ')
           for zip_name in $to_process_list; do
+            echo "processing ${zip_name}"
             seven_zip_name="${zip_name%.zip}.7z"
             temp_dir=$(mktemp -d)
             gh release download "$RELEASE_TAG" -p "$zip_name"
