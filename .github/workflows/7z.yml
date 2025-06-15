@@ -2,6 +2,10 @@ name: Convert Release ZIP to 7z
 on:
   release:
     types: [published, edited] #上传任意文件，或者编辑任意release信息都会触发edited
+  workflow_dispatch:
+  repository_dispatch:
+    types:
+      - convert-releases
 
 
 concurrency:
