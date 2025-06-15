@@ -19,7 +19,7 @@ jobs:
       contents: write
     env:
       GH_TOKEN: ${{ github.token }}
-      RELEASE_TAG: ${{ github.event.release.tag_name }}
+      RELEASE_TAG: archive
     steps:
       - uses: actions/checkout@v4
       - run: |
