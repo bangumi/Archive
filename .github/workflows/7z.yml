@@ -1,0 +1,29 @@
+name: Convert Release ZIP to 7z
+on:
+  release:
+    types: [published, edited] #上传任意文件，或者编辑任意release信息都会触发edited
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+      RELEASE_TAG: ${{ github.event.release.tag_name }}
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          to_process_list=$(gh release view "$RELEASE_TAG" --json assets --jq '
+            (.assets | map(.name | select(endswith(".zip"))) | map(sub(".zip$"; ""))) as $zips |
+            (.assets | map(.name | select(endswith(".7z"))) | map(sub(".7z$"; ""))) as $seven_zips |
+            ($zips - $seven_zips) | map(. + ".zip") | join(" ")
+          ')
+          for zip_name in $to_process_list; do
+            seven_zip_name="${zip_name%.zip}.7z"
+            temp_dir=$(mktemp -d)
+            gh release download "$RELEASE_TAG" -p "$zip_name"
+            unzip -q "$zip_name" -d "$temp_dir"
+            7z a -t7z -mx=9 "$seven_zip_name" "$temp_dir/."
+            gh release upload "$RELEASE_TAG" "$seven_zip_name" --clobber
+            rm -f "$zip_name" "$seven_zip_name" && rm -rf "$temp_dir"
+          done
