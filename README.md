@@ -117,6 +117,16 @@
   | `character_id`       | 对应条目中的角色 ID                                                       |
   | `summary`            | 概要                                                                     |
 
+- 人物之间或角色之间的关联（Person-relations）：
+  | **Key**              | **含义**                                                                 |
+  |----------------------|--------------------------------------------------------------------------|
+  | `person_type`        | 现实人物 `prsn` 或虚拟角色 `crt`                                         |
+  | `person_id`          | 人物 ID                                                                  |
+  | `related_person_id`  | 关联人物 ID                                                              |
+  | `relation_type`      | 关联类型                                                                 |
+  | `spoiler`            | 是否剧透                                                                 |
+  | `ended`              | 是否已结束                                                               |
+
 每周三凌晨五点(GMT+8)更新。
 
 导出的数据可以在 [releases](https://github.com/bangumi/Archive/releases/tag/archive) 下载
